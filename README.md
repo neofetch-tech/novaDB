@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./icons/assets/icon.png" width="180">
+<img src="./icons/icon.png" width="180">
 
 # novaDB
 
