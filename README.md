@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./icons/assets/icon.png" width="180">
+
 # novaDB
 
 Modern Visual Database Designer
