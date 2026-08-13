@@ -1,0 +1,35 @@
+{
+  "name": "nova",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "tauri": "tauri dev",
+    "tauri:build": "tauri build",
+    "tauri:dev": "concurrently \"npm run dev\" \"npm run tauri\"",
+    "tauri:dev:no-console": "tauri dev --no-default-features",
+    "tauri:dev:django": "concurrently \"npm run dev\" \"npm run django\" \"npm run tauri\"",
+    "django": "cd py-backend && python manage.py runserver 127.0.0.1:8000",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.11.1",
+    "@xyflow/react": "^12.11.2",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.11.4",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.4",
+    "concurrently": "^8.2.2",
+    "oxlint": "^1.75.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.2.0"
+  }
+}

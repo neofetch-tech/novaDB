@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Visual Studio Code">
+  <defs>
+    <linearGradient id="vscodeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f9cf0"/>
+      <stop offset="100%" stop-color="#007acc"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="24" fill="url(#vscodeGradient)"/>
+  <path d="M84 28 48 62 31 49 22 53l20 18-20 18 9 4 17-13 36 34 18-8V36l-18-8Zm0 18v36L58 64l26-18Z" fill="#ffffff"/>
+</svg>
